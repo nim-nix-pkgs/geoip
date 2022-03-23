@@ -1,8 +1,0 @@
-{
-  "desc": "Retrieve info about a location from an IP address",
-  "license": "MIT",
-  "name": "geoip",
-  "ref": "refs/heads/master",
-  "url": "https://github.com/achesak/nim-geoip",
-  "version": "master"
-}
