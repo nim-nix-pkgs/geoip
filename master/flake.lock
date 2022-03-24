@@ -36,10 +36,10 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-geoip-master": "src-geoip-master"
+        "src-freegeoip-master": "src-freegeoip-master"
       }
     },
-    "src-geoip-master": {
+    "src-freegeoip-master": {
       "flake": false,
       "locked": {
         "lastModified": 1500856227,
