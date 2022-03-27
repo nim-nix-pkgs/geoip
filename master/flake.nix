@@ -11,6 +11,7 @@
   inputs.src-freegeoip-master.ref   = "refs/heads/master";
   inputs.src-freegeoip-master.owner = "achesak";
   inputs.src-freegeoip-master.repo  = "nim-geoip";
+  inputs.src-freegeoip-master.dir   = "";
   inputs.src-freegeoip-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
