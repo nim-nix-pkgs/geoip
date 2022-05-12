@@ -7,6 +7,14 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
+  inputs."freegeoip-master".dir   = "master";
+  inputs."freegeoip-master".owner = "nim-nix-pkgs";
+  inputs."freegeoip-master".ref   = "master";
+  inputs."freegeoip-master".repo  = "freegeoip";
+  inputs."freegeoip-master".type  = "github";
+  inputs."freegeoip-master".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."freegeoip-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
